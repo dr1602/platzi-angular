@@ -1,0 +1,42 @@
+h2 {
+  border-bottom: 3px solid black;
+  color: #fff;
+  padding-bottom: 3vh;
+}
+
+h3 {
+  color: tomato;
+  text-align: center;
+  padding-right: 12vw;
+}
+
+form {
+  background: #0066b2;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transform: scale(1);
+  transition: 0.4.5s transform;
+}
+
+form:hover {
+  transform: scale(1.2);
+}
+
+button {
+  background: white;
+  border: 3px solid transparent;
+  margin: 6px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: border-color 0.12s;
+}
+
+button:hover {
+  border-color: red;
+}
+
+button[disabled] {
+  opacity: 0.45;
+}
